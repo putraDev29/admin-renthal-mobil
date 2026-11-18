@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "id": "/",
+  "name": "Amii Trans - Rental Mobil & Keuangan",
+  "short_name": "AmiiTrans",
+  "description": "Sistem Manajemen Rental Mobil, Jadwal Armada, Kas & Keuangan Amii Trans",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f172a",
+  "theme_color": "#1e293b",
+  "lang": "id",
+  "icons": [
+    {
+      "src": "/assets/images/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/images/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/images/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Amii Trans Rental Mobil & Keuangan"
+    },
+    {
+      "src": "/assets/images/screenshot-narrow.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Aplikasi Mobile Amii Trans"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Kalender Booking",
+      "short_name": "Kalender",
+      "description": "Buka Jadwal Kalender Booking",
+      "url": "/#booking",
+      "icons": [{ "src": "/assets/images/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Dashboard Keuangan",
+      "short_name": "Keuangan",
+      "description": "Buka Dashboard Ringkasan Keuangan",
+      "url": "/#keuangan",
+      "icons": [{ "src": "/assets/images/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Cash Flow",
+      "short_name": "Cash Flow",
+      "description": "Catat Arus Kas Masuk & Keluar",
+      "url": "/cashFlow",
+      "icons": [{ "src": "/assets/images/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Daftar Booking",
+      "short_name": "Booking",
+      "description": "Daftar Booking Rental Mobil",
+      "url": "/bookings",
+      "icons": [{ "src": "/assets/images/icon-96.png", "sizes": "96x96" }]
+    }
+  ],
+  "categories": ["business", "finance", "productivity"]
+}

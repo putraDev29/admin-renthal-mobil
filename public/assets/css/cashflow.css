@@ -1,0 +1,39 @@
+body {
+    background: #f5f7fb;
+}
+
+.card {
+    overflow: hidden;
+}
+
+table.dataTable tbody td {
+    vertical-align: middle;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border-radius: 12px;
+    border: 1px solid #dee2e6;
+    padding: 6px 12px;
+    margin-left: 6px;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+    padding: 4px 28px 4px 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0 !important;
+    margin: 0 2px !important;
+    border: none !important;
+    background: transparent !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .page-link {
+    border-radius: 10px !important;
+}
+
+table.dataTable {
+    border-collapse: collapse !important;
+}
